@@ -24,8 +24,8 @@ header {
 
 .navbar {
   overflow: hidden;
-  background-color: 003B6D;
-  margin-top: 80px;
+  background-color: #003B6D;
+  margin-top: 55px;
 }
 
 .navbar a {
@@ -58,6 +58,25 @@ header {
   background-color: #6699cc
 }
 
+.consultation-button {
+  background-color: #6699cc;
+  color: #ffffff;
+  border-radius: 12px;
+  width: 175px;
+  border: none;
+}
+
+.consultations-section-button {
+  width: 300px;
+  height: 50px;
+  margin: 0 25%;
+  border: 2px solid #003B6D;
+}
+
+.consultation-button-margin-top {
+  margin-top: 45px;
+  margin-right: 5px;
+}
 .subnav-content {
   display: none;
   position: absolute;
@@ -83,19 +102,12 @@ header {
   display: block;
 }
 
-.nav-button {
-  float: right;
-}
-
 .margin-left-25 {
   margin-left: 25px;
 }
 
 .hero-text {
-  /* background-image: url('./images/dog_and_cat_hero.jpg'); */
-  /* height: 500px; */
-  /* background-repeat: no-repeat; */
-  margin: 5%;
+  margin: 0 5%;
 }
 
 .grid {
@@ -115,7 +127,7 @@ header {
 }
 
 .pet-section {
-  margin: 5%;
+  margin: 200px 5% 50px;
   width: 100%;
 }
 
@@ -165,7 +177,15 @@ header {
   opacity: 50%;
   width: 100%;
   margin-top: -200px;
-  height: 200px;
+  height: 300px;
+}
+
+.services-container-consultations {
+  background-color: #bdbdbd;
+  opacity: 50%;
+  width: 100%;
+  margin-top: -250px;
+  height: 300px;
 }
 
 .services-container-large{
