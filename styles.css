@@ -250,6 +250,10 @@ footer a {
   border-top: 2px solid #bdbdbd
 }
 
+footer a {
+  text-decoration: none;
+}
+
 .footer-img-column {
   width: 25%;
 }
