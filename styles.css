@@ -6,8 +6,7 @@ body {
 
 header {
   width: 100vw;
-  height: 95px;
-  /* border: 1px solid black; */
+  height: 100px;
   display: flex;
   align-items: center;
   background-color: #040457;
@@ -131,7 +130,6 @@ header {
 
 .hero-section {
   height: 500px;
-  border: 1px solid deeppink;
   color: #003b6d
 }
 
@@ -162,26 +160,23 @@ header {
   background-color: #bdbdbd;
   opacity: 50%;
   width: 100%;
-  border: 2px solid deeppink;
-  /* z-index: 2; */
   margin-top: -200px;
   height: 200px;
 }
 
 .services-container-large{
-    background-color: #bdbdbd;
-      opacity: 50%;
-      width: 100%;
-      border: 2px solid deeppink;
-      /* z-index: 2; */
-      margin-top: -200px;
-      height: 400px;
+  background-color: #bdbdbd;
+  opacity: 50%;
+  width: 100%;
+  margin-top: -200px;
+  height: 400px;
 }
 
 .services-container-text {
-      z-index: 5;
-        opacity: 100%;
-        position: relative;
+  z-index: 5;
+  opacity: 100%;
+  position: relative;
+  margin-left: 5px;
 }
 
 .absolute {
