@@ -243,4 +243,11 @@ footer a {
 .silverSection {
   background-color: #bdbdbd;
   padding: 10px 20px;
+  color: #003b6d;
+}
+
+.whiteSection {
+  background-color: #ffffff;
+  color: #003b6d;
+  padding: 10px 20px;
 }
