@@ -192,8 +192,12 @@ header {
   background-color: #bdbdbd;
   opacity: 50%;
   width: 100%;
-  margin-top: -200px;
+  margin-top: -300px;
   height: 400px;
+}
+
+.adoption-services li{
+  margin-bottom: 15px;
 }
 
 .services-container-text {
@@ -237,6 +241,7 @@ header {
 
 footer a {
   color: #003b6d;
+  text-decoration: none;
 }
 
 .footer {
@@ -250,8 +255,12 @@ footer a {
   border-top: 2px solid #bdbdbd
 }
 
-footer a {
-  text-decoration: none;
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  margin-bottom: 15px;
 }
 
 .footer-img-column {
