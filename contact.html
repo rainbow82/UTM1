@@ -49,9 +49,21 @@
       Book a Consultation
     </button>
   </header>
-
-  <h1>Book a consultation</h1>
-
+  <section class="consultation-form-section">
+    <h1>Book a consultation</h1>
+    <p><i>We will contact you within 48 hours to schedule a personalized consultation.</i></p>
+    <form action="/action_page.php" class="consultation-form">
+      <label for="firstName">First name:</label><br>
+      <input type="text" id="firstName" name="firstName" placeholder="Kermie" required ><br><br>
+      <label for="lastName">Last name:</label><br>
+      <input type="text" id="lastName" name="lastName" placeholder="Da Frog" required ><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="k.daFrog@gmail.com" required ><br><br>
+      <label for="phone">Enter your phone number:</label><br>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="555-555-5555"/><br><br><br>
+      </form>
+      <button class="consultation-form-submit-button" onclick="submit()">Submit</button>
+  </section>
 
   <footer class="footer grid two-columns">
     <div>
@@ -108,6 +120,12 @@
       <p><i>Images provided by <a href="unsplash.com">unsplash.com</a> </i></p>
     </div>
   </footer>
+
+  <script>
+    function submit() {
+      alert('Form has been submitted')
+    }
+  </script>
 </body>
 
 </html>

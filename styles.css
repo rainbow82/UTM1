@@ -226,6 +226,34 @@ header {
 
 .float-right {
   float: right;
+  clear: both;
+}
+
+.consultation-form-section {
+  margin: 5% 30%;
+  border: 2px solid #676767;
+  border-radius: 12px;
+  background-color: #6699cc;
+  padding: 15px;
+  color: #ffffff
+}
+
+input {
+  width: 500px;
+}
+
+.consultation-form-submit-button {
+  background-color: #bdbdbd;
+  padding: 15px;
+  font-weight: bold;
+  color: #003B6D;
+  border-radius: 12px;
+  border: 2px solid #003B6D;
+  margin-left: 35%;
+}
+
+form label {
+  margin-bottom: 15px;
 }
 
 .form-button {
@@ -235,12 +263,14 @@ header {
   color: white;
 }
 
-.socials {
-  margin-left: 50px;
-}
 
 footer a {
   color: #003b6d;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #6699cc;
   text-decoration: none;
 }
 
