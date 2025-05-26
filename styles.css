@@ -197,6 +197,14 @@ header {
   height: 400px;
 }
 
+.services-container-extra-large {
+  background-color: #bdbdbd;
+  opacity: 50%;
+  width: 100%;
+  margin-top: -450px;
+  height: 500px;
+}
+
 .adoption-services li{
   margin-bottom: 15px;
 }
