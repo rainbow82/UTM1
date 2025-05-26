@@ -57,6 +57,9 @@ header {
 .subnav:hover .subnavbtn {
   background-color: #6699cc
 }
+.container-title {
+  display: flex;
+}
 
 .consultation-button {
   background-color: #6699cc;
